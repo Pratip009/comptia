@@ -142,7 +142,7 @@ export default function Navbar() {
             ) : (
               <>
                 <button
-                  onClick={() => handleNavClick("enroll")}
+                  onClick={() => handleNavClick("pricing")}
                   className="bg-[#317AFF] text-white px-5 py-2 rounded-lg hover:bg-blue-700 transition-all font-semibold shadow-sm"
                 >
                   Enroll Now

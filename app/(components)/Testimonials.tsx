@@ -29,7 +29,7 @@ const testimonials = [
   {
     name: "Priya K.",
     role: "Computer Technician",
-    image: "https://randomuser.me/api/portraits/women/60.jpg",
+    image: "https://img.freepik.com/free-photo/indian-woman-posing-cute-stylish-outfit-camera-smiling_482257-122351.jpg?semt=ais_hybrid&w=740&q=80",
     quote:
       "I loved the one-on-one attention. The instructor made even complex networking topics simple and fun to learn.",
   },

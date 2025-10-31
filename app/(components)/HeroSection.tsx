@@ -65,7 +65,12 @@ const HeroSection: React.FC = () => {
 
             <div className="flex flex-col sm:flex-row gap-3 justify-start">
               <a
-                href="form"
+                href="#pricing"
+                onClick={(e) => {
+                  e.preventDefault(); // prevent default jump
+                  const section = document.getElementById("pricing");
+                  section?.scrollIntoView({ behavior: "smooth" });
+                }}
                 className="flex-1 inline-flex items-center justify-center px-6 py-3 bg-gradient-to-r from-blue-600 via-blue-500 to-indigo-600 text-white font-semibold text-base rounded-full shadow-lg hover:shadow-2xl hover:scale-105 transition-all duration-300 max-w-sm"
               >
                 Enroll Now – $2,500
